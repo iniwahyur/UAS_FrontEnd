@@ -1,0 +1,72 @@
+.horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 15px; /* Untuk memberikan ruang bawah pada kartu */
+}
+
+.card-item {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Menambahkan spasi antara kartu */
+    width: 300px; /* Lebar kartu */
+}
+
+.card-box {
+    border: 1px solid #ccc; /* Border untuk kotak */
+    padding: 10px; /* Ruang di dalam kotak */
+    margin-bottom: 10px; /* Spasi antara kotak-kotak */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px; /* Mengompensasi margin dari kartu */
+}
+
+.card-item {
+    margin: 15px; /* Spasi antara kartu */
+    box-sizing: border-box; /* Memastikan padding dan border tidak menambah lebar */
+    width: 300px; /* Tetapkan lebar kartu */
+}
+
+.edit-button {
+    padding: 6px 12px; /* Ubah padding untuk mengatur ukuran tombol */
+    font-size: 0.9em; /* Ubah ukuran font */
+    border-radius: 5px; /* Tambahkan sudut sedikit bulat */
+    background-color: #552619; /* Warna latar belakang tombol */
+    color: white; /* Warna teks */
+    border: none; /* Hilangkan border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi hover */
+}
+
+.edit-button:hover {
+    background-color: #F88799; /* Warna latar belakang saat dihover */
+}
+
+.delete-button {
+    padding: 6px 12px; /* Ubah padding untuk mengatur ukuran tombol */
+    font-size: 0.9em; /* Ubah ukuran font */
+    border-radius: 5px; /* Tambahkan sudut sedikit bulat */
+    background-color: red; /* Warna latar belakang tombol */
+    color: white; /* Warna teks */
+    border: none; /* Hilangkan border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi hover */
+}
+
+.delete-button:hover {
+    background-color: #552619; /* Warna latar belakang saat dihover */
+}
+
+
+.warna {
+    color: yellow;
+}
+
+
+@media (max-width: 414px) {
+    .card-item {
+        width: calc(50% - 30px); /* Mengubah lebar kartu menjadi 2 kartu per baris */
+    }
+}

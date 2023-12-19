@@ -1,0 +1,143 @@
+/* File CSS yang disebut LandingPage.css */
+.image-container {
+  width: auto; /* Menyesuaikan lebar elemen dengan lebar layar */
+  max-width: auto; /* Batasi maksimum lebar elemen sesuai dengan layar */
+  position: relative;
+  text-align: left;
+  top: 30px;
+  margin-left: auto;
+}
+
+.image-container img {
+  /* Gaya untuk gambar LPB */
+}
+
+.text-on-image {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  font-family: 'Imbue';
+  /* Gaya untuk teks di atas gambar di sebelah kiri */
+}
+
+.text-on-image h1 {
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 65px;
+  font-family: 'Imbue';
+}
+
+.search-menu {
+  position: absolute;
+  top: 68%; /* Sesuaikan dengan tinggi yang diinginkan */
+  left: 0;
+  padding-left: 30px; /* Tambahkan margin kiri untuk menggeser ke kanan */
+  display: flex; /* Menggunakan flexbox untuk mengatur elemen input dan tombol */
+}
+
+.search-menu input {
+  /* Gaya untuk input pencarian */
+  padding: 12px;
+  width: 450px; /* Lebarkan elemen input pencarian sesuai kebutuhan Anda */
+  background-color: #FAD5D5; /* Warna latar belakang pada input pencarian */
+  border: 1px solid #ccc; /* Garis tepi tipis */
+  border-radius: 10px 0 0 10px; /* Membuat sudut bulat pada sisi kiri */
+}
+
+.search-menu button {
+  /* Gaya untuk tombol pencarian */
+  padding: 11px 40px;
+  background-color: #F88799;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0; /* Membuat sudut bulat pada sisi kanan */
+}
+
+.contact-container {
+
+  background-color: #F88799; /* Ubah warna latar belakang sesuai preferensi Anda */
+  padding: 20px; /* Sesuaikan padding sesuai kebutuhan Anda */
+  padding-left: 3%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FAD5D5;
+  border-radius: 10px;
+  font-family: 'Oswald';
+}
+
+.contact-delivery p {
+  /* font-family: 'Oswald'; */
+}
+
+.contact-container {
+
+  background-color: #F88799; /* Ubah warna latar belakang sesuai preferensi Anda */
+  padding: 20px; /* Sesuaikan padding sesuai kebutuhan Anda */
+  padding-left: 3%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FAD5D5;
+  border-radius: 10px;
+  /* margin-top: 50px; */
+  font-family: 'Oswald';
+  display: flex; /* Menggunakan flexbox untuk mengatur elemen dalam satu baris */
+  justify-content: space-between; /* Membuat teks dan nomor telepon sejajar di antara kanan dan kiri */
+  align-items: center; /* Memusatkan vertikal */
+}
+
+.phone-icon {
+  margin-left: 210px; /* Sesuaikan jarak ke kiri yang diinginkan */
+  width: 50px;
+}
+
+.kotak {
+
+}
+
+@media (max-width: 768px) {
+
+  .image-container {
+    padding: em;
+    size: 20px;
+  }
+
+
+.image-container img {
+  width: 24em;
+  margin-left: 5%;
+  margin-top: 0em;
+}
+
+.text-on-image  {
+  margin-top: -2em;
+  margin-left: 1em;
+} 
+
+.text-on-image h1 {
+  font-size: 18px;
+} 
+
+.search-menu {
+  
+  width: 12px;
+  height: 12px;
+  margin-top: -4em;
+  margin-left: 1em;
+}
+
+.contact-container {
+  font-size: 10px;
+  margin-left: 2em;
+  width: 350px;
+}
+
+.phone-icon {
+  width: 1px;
+  height: 1px;
+}
+
+.contact-delivery {}
+
+}

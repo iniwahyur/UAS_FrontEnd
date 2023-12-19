@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #Fff;  /* fallback for old browsers */
+    background: #F88799;  /* fallback for old browsers */
 }
 
 .App {
@@ -21,7 +21,7 @@ body {
     max-width: 978px;
     width: 100vw;
     display: flex;
-    border: 3px solid #552619;
+    border: 1px solid #e9ecef;
     border-radius: 5px;
     /* box-shadow: 1px 3px 10px #e9ecef; */
     background-color: white;
@@ -101,9 +101,9 @@ body {
     color: black;
   }
 
+
 @media screen and (min-width: 860px) {
     .register .col-2 img {
         display: initial;
     }
-    
 }
